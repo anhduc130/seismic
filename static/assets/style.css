@@ -1,0 +1,146 @@
+body {
+    background-image:url(http://www.anhducbui.com/static/images/stuff/background_city.jpg);
+    background-color: #000; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;       
+    webkit-background-size: cover;
+    z-indexmoz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;     
+}
+
+#header-section {
+    padding-top:20px;
+    text-align:center;
+    background-position: center center;
+    min-height: 700px;
+    width: 100%;    
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-image: url("../images/shang_hai.jpg");
+}
+#header-section h1 {
+    color: #ccc6af;
+    font-size: 5.4vw;
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+#header-section h2 {
+    color: #ccc6af;
+    font-size: 2.9vw;
+    font-weight: 900;
+    letter-spacing: 4px;
+}
+#header-section img{
+    opacity : 0.9;
+    margin-top: 0px;
+}
+.down-icon{
+    color: #ccc6af;
+}
+
+/*==========================================
+   SOCIAL ICON STYLES
+    =====================================================*/
+
+.color-facebook {
+    color:#3B5998;
+}
+.color-twitter {
+    color:#00aced;
+}    
+.color-youtube {
+    color:red;
+}
+.color-linkedin {
+    color:#007bb6;
+}
+.color-github {
+    color:#333333;
+}
+.color-email {
+    color:white;
+}
+/*==========================================
+   ABOUT SECTION
+    =====================================================*/
+#about-section {
+    color: #756f59;
+    background-color: #011F21;
+}
+/*==========================================
+   SKILLS SECTION
+    =====================================================*/
+#skills-section {
+    color: #9b8c50;
+}
+#skills-section button{
+    height: auto;
+    width: 100%;
+    background-color: black; /* Green */
+    border: 1.5px solid red;
+    color: #ccc6af;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: auto;
+}
+
+#skills-section #button1, #button2, #button3 {
+    text-align: justify;
+    text-justify: inter-word;
+}
+/*==========================================
+   PROJECTS SECTION
+    =====================================================*/
+#projects-section {
+}
+#projects-section img{
+    height: 100%;
+    width: 100%;
+}
+
+#projects-section .row {
+    margin-top: 30px;
+    margin-bottom: 30px
+}
+#projects-section .title{
+    font-size: 20px;
+    border-radius: 25px;
+    border: 2px solid red;
+    background-color: black;
+    color: #ccc6af;
+    margin: 0 0 10px 0px;
+}
+
+/*==========================================
+   CONTACT SECTION
+    =====================================================*/
+#contact-section {
+    background-color: #011F21;
+    color: #9b8c50;
+}
+/* ==========================================================================
+   FOOTER SECTION
+   ========================================================================== */
+#footer {
+    background-color: black; 
+    color: red;  
+    padding: 10px 30px 10px 30px;
+}
+/* ==========================================================================
+   SPECIAL ELEMENTS
+   ========================================================================== */
+.large-title {
+    font-size: 50px;
+    color: #e2c038;
+}
+
+/* Center the loader */
